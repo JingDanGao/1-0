@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>地图</title>
+    <link rel="stylesheet" href="1.css">
+</head>
+<body>
+    <div id="mapContainer">
+        <img src="zongtu.jpg" alt="background" usemap="#map" class="background">
+
+        <map name="map">
+            <area shape="rect" coords="x1,y1,x2,y2" href="#" alt="景点1" data-detail="龙泉山风景区.png" data-info="景点1信息...">
+            <area shape="rect" coords="x3,y3,x4,y4" href="#" alt="景点2" data-detail="武汉花博会.png" data-info="景点2信息...">
+            <!--rect代表矩形，coords代表矩形左上角和右下角坐标，坐标目前还没有输入数值-->
+            <!-- 其他景点还没写-->
+        </map>
+<!--目前是小图对应到总图景点的问题，dingwei.html那个文档是我搜到的一种思路，但是不够灵活还得改-->
+        <div id="detailView" style="display:none;">
+            <img src="" id="detailImage">
+            <p id="detailText"></p>
+        </div>
+    </div>
+    <script src="1.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,53 @@
+#mapContainer {
+    position: relative;
+    width: 80vw;
+    height: 50vh;
+    margin: auto;
+}/*总图的样式*/
+
+/*这个是我找的图片切换的代码，我本来以为是点击切换，想拿来用来着，结果是1s自动的
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:white;
+}
+.box>img{
+    width:500px;
+    height:500px;
+    margin-top:50px;
+    margin-left:500px;
+    border-left:2px solid rgba(255,255,255,0.8);
+    border-top:2px solid rgba(255,255,255,0.8);
+    border-right:5px solid rgba(255,255,255,0.8);
+    border-bottom:5px solid rgba(255,255,255,0.8);
+    border-radius: 20px;
+
+}
+*/
+
+
+    div img{
+    width: 100%;
+    transition: all 1s;
+    }
+
+    div img:hover{
+    transform: scale(1.2);
+    }/*设置鼠标悬停放大效果*/
+
+#detailView {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    display: none;
+    text-align: center;
+}/*细节图的样式*/
+
+img {
+    width: 100%;
+    height: auto;
+}
